@@ -1,12 +1,14 @@
 name: Build_NanoPi_R4S
 
 on: 
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    #branches: 
+    #  - master
+    tags:
+      - build-nanopi_r4s-*
 
   #schedule:
   #  - cron: 0 8 * * 5

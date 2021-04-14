@@ -8,12 +8,14 @@
 name: Build_360P2
 
 on: 
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
 
   push:
-    branches: 
-      - master
+    #branches: 
+    #  - master
+    tags:
+      - build-*
 
   #schedule:
   #  - cron: 0 8 * * 5

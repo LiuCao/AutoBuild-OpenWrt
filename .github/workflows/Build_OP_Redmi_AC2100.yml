@@ -8,12 +8,14 @@
 name: Build_Redmi_AC2100
 
 on: 
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    #branches: 
+    #  - master
+    tags:
+      - build-redmi_ac2100-*
 
   #schedule:
   #  - cron: 0 8 * * 5
